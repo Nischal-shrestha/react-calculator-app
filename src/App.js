@@ -68,6 +68,13 @@ class App extends Component {
             ["1", "2", "3", "-"],
             [".", "0", "=", "+"]
         ];
+
+        const calc3 = [
+            ["7", "8", "9", "/", "*"],
+            ["4", "5", "6", "-", "+"],
+            ["1", "2", "3", "(", "^"],
+            [".", "0", "=", ")", "!"]
+        ];
         return (
             <div className="app">
                 <div className="calc-wrapper">
