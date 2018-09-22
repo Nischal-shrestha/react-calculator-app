@@ -90,6 +90,12 @@ class App extends Component {
                         </ClearButton>
                     </div>
                 </div>
+                <div className="author">
+                    Made by &nbsp;
+                    <a href="https://nischal-shrestha.github.io">
+                        Nischal Shrestha
+                    </a>
+                </div>
             </div>
         );
     }
